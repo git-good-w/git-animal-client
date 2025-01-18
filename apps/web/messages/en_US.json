@@ -144,7 +144,10 @@
     "property-pet-sell": {
       "title": "Property Pet Sell",
       "description": "Sell your pet to other users!",
-      "count": "ea"
+      "count": "ea",
+      "saleSuccess": "sale success",
+      "saleFail": "sale fail",
+      "totalAmount": "Total Amount"
     }
   },
   "Inbox": {
@@ -156,5 +159,9 @@
   "Preview": {
     "copy-link-title": "Copy Link",
     "copy-link-success": "Copy success!"
+  },
+  "Guild": {
+    "join-request-success": "Successfully sent a guild join request.",
+    "invalid-guild-name": "Guild name may only contain alphanumeric characters or single hyphens, and cannot begin or end with a hyphen."
   }
 }
