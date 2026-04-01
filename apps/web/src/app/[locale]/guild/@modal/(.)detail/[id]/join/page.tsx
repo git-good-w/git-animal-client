@@ -2,8 +2,8 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import { css } from '_panda/css';
 import { inboxQueries } from '@gitanimals/react-query';
+import { cn } from '@gitanimals/ui-tailwind';
 import { useQueryClient } from '@tanstack/react-query';
 import { toast } from 'sonner';
 
@@ -47,9 +47,4 @@ export default function GuildJoinModal({ params }: { params: { id: string } }) {
   );
 }
 
-const dialogDescriptionStyle = css({
-  textStyle: 'glyph20.regular',
-  color: 'white.white_50',
-  mt: 3,
-  textAlign: 'center',
-});
+const dialogDescriptionStyle = cn('font-product text-glyph-20 text-white/50 mt-3 text-center');
